@@ -23,6 +23,7 @@ const mapping: [string, string][] = [
   ["egg", "egg_allergen"],
   ["fruit", "fruit_allergen"],
   ["junk", "junk_allergen"],
+  ["milk", "milk_allergen"]
 ];
 filelist.forEach(async (filePath) => {
   let dirty = false;
